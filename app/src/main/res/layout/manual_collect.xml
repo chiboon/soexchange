@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/exchange_grey">
+
+
+    <!--Recipient Name-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <EditText
+            android:id="@+id/receipientname"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingLeft="52dp"
+            android:background="@drawable/exchange_edittext"
+            android:hint="Receipient Name"
+            android:textSize="16sp"
+            android:textCursorDrawable="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"/>
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="-3dp"
+            android:src="@drawable/username"
+            android:gravity="center"/>
+    </FrameLayout>
+
+    <!--IC/Passport-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <EditText
+            android:id="@+id/icpassport"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingLeft="52dp"
+            android:background="@drawable/exchange_edittext"
+            android:hint="IC/Passport"
+            android:textSize="16sp"
+            android:textCursorDrawable="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"/>
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="-3dp"
+            android:src="@drawable/password"
+            android:gravity="center"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/exchange_button_black"
+        android:text="Let's Go"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

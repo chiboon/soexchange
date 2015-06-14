@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="LightBlue">#ff009cdf</color>
+    <color name="Orange">#FFC81E</color>
+    <color name="tranglo_blue">#01a1e6</color>
+    <color name="lighSilver">#ffe1e1e1</color>
+
+
+    <color name="exchange_darkgrey">#3C414E</color>
+    <color name="exchange_green">#41485E</color>
+    <color name="exchange_grey">#E4E4E4</color>
+    <color name="exchange_button">#41485E</color>
+</resources>
